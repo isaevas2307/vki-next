@@ -8,4 +8,4 @@ export async function GET(): Promise<Response> {
       'Content-Type': 'application/json',
     },
   });
-}
+};

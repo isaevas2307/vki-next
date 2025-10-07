@@ -1,10 +1,11 @@
 import Students from '@/components/Students/Students';
 import Page from '@/components/layout/Page/Page';
-import { Metadata } from 'next/types';
+import { META_DESCRIPTION, META_TITLE } from '@/constants/meta';
+import { type Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-  title: 'Студенты - Вэб разработка ВКИ - Next.js шаблон',
-  description: 'Список студентов с загрузкой из БД через TanStack Query',
+  title: `Студенты - ${META_TITLE}`,
+  description: META_DESCRIPTION,
 };
 
 const StudentsPage = (): React.ReactNode => (
