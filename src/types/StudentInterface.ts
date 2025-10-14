@@ -1,9 +1,8 @@
 interface StudentInterface {
   id: number;
   firstName: string;
-  lastsName: string;
+  lastName: string;
   middleName: string;
   isDeleted?: boolean;
 };
-
 export default StudentInterface;
